@@ -9,7 +9,8 @@ The initial pattern is the seed of the game and determines how the evolution pla
 
 
 ###Classes
-1. Grid: todo class desc
-2. Model: todo class desc
+1. Board: Represents the n x m grid of the game, consists of an array of cells
+2. Cell: Represents the cell at [n,m] in the board, has a set of neighbours, can be dead or alive.
+3. View: ---
 
 [^1]: [video demo](https://www.youtube.com/watch?v=xP5-iIeKXE8)

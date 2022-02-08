@@ -1,5 +1,8 @@
+import game.Board;
+
 public class Driver {
     public static void main(String[] args) {
-       //TODO
+        Board board = new Board(2,2);
+        System.out.println(board);
     }
 }
